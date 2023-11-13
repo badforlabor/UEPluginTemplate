@@ -1,0 +1,29 @@
+﻿{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "XxxPlugin",
+	"Description": "A Plugin Template",
+	"Category": "Others",
+	"CreatedBy": "Damian Nowakowski",
+	"CreatedByURL": "https://zompidev.blogspot.com",
+	"DocsURL": "https://github.com/zompi2/UE4EditorPluginTemplate",
+	"MarketplaceURL": "",
+	"SupportURL": "mailto:zompi2@gmail.com",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "XxxPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "XxxPluginEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PreDefault"
+		}
+	]
+}
